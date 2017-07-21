@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 set -e
-source /home/ec2-user/.bashrc
+export PATH=$PATH:/usr/bin/npm:/usr/bin/node
+#source /home/ec2-user/.bashrc
 ls -lt
